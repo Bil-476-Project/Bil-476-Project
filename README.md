@@ -29,7 +29,6 @@ The `customerID` column is removed before modeling because it is an identifier r
 Bil-476-Project/
 ├── README.md
 └── telco-churn-project/
-    ├── README.md
     ├── requirements.txt
     ├── data/
     │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
