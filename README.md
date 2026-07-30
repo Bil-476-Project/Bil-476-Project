@@ -28,19 +28,25 @@ The `customerID` column is removed before modeling because it is an identifier r
 ```text
 Bil-476-Project/
 ├── README.md
-├── requirements.txt
-├── data/
-│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   └── telco_clean.csv
-├── notebooks/
-│   ├── 01_eda_and_cleaning.ipynb
-│   └── 02_preprocessing_modeling.ipynb
-├── reports/
-│   ├── report.tex
-│   ├── report.pdf
-│   └── figures_*.png
-└── results/
-    └── model_results.csv
+└── telco-churn-project/
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+    │   └── telco_clean.csv
+    ├── notebooks/
+    │   ├── 01_eda_and_cleaning.ipynb
+    │   └── 02_preprocessing_modeling.ipynb
+    ├── reports/
+    │   ├── BIL476_Report_Zeynep_Ay_231404035.tex
+    │   ├── BIL476_Report_Zeynep_Ay_231404035.pdf
+    │   ├── figures_confusion_matrices.png
+    │   ├── figures_f1_comparison.png
+    │   ├── figures_feature_importance.png
+    │   ├── figures_pr_curves.png
+    │   └── figures_roc_curves.png
+    └── results/
+        └── model_results.csv
 ```
 
 ## Installation
@@ -51,7 +57,7 @@ The project was developed with **Python 3.10**.
 
    ```bash
    git clone https://github.com/Bil-476-Project/Bil-476-Project.git
-   cd Bil-476-Project
+   cd Bil-476-Project/telco-churn-project
    ```
 
 2. Create and activate a virtual environment (recommended):
