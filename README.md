@@ -142,7 +142,7 @@ results/model_results.csv
 
 ## AI Tool Use
 
-ChatGPT and Claude were used for coding, debugging, and improving parts of the experimental pipeline. The student prepared the initial report outline, section structure, and content plan. ChatGPT assisted with developing parts of the report, language revision, structural refinement, and LaTeX formatting. The notebooks were executed, and the outputs, tables, figures, citations, and final content were reviewed and verified by the student.
+ChatGPT and Claude were used for coding, debugging, and improving parts of the experimental pipeline. The student prepared the initial report outline, section structure, and content plan. ChatGPT was used for language revision, grammar correction, structural feedback, and LaTeX formatting. The notebooks were executed, and the final text, outputs, tables, figures, results, and citations were reviewed and verified by the student.
 
 ## Author
 
