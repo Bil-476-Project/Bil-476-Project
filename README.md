@@ -115,10 +115,10 @@ Rerun the second notebook before updating the numerical results, figures, discus
 
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC | PR-AUC |
 |---|---:|---:|---:|---:|---:|---:|
-| Naive Bayes + SMOTENC | 0.727 | 0.492 | 0.778 | **0.602** | 0.804 | 0.575 |
-| Random Forest + SMOTENC | 0.764 | 0.544 | 0.671 | 0.601 | 0.830 | 0.616 |
+| Random Forest + SMOTENC | 0.767 | 0.549 | 0.674 | **0.605** | 0.830 | 0.616 |
+| Naive Bayes + SMOTENC | 0.728 | 0.492 | 0.778 | 0.603 | 0.804 | 0.575 |
+| k-NN + SMOTENC | 0.730 | 0.495 | 0.762 | 0.600 | 0.808 | 0.560 |
 | Decision Tree | 0.798 | 0.635 | 0.567 | 0.599 | 0.828 | 0.621 |
-| k-NN + SMOTENC | 0.727 | 0.491 | 0.762 | 0.597 | 0.808 | 0.560 |
 | Naive Bayes | 0.703 | 0.465 | **0.810** | 0.591 | 0.819 | 0.603 |
 | Decision Tree + SMOTENC | 0.728 | 0.492 | 0.738 | 0.590 | 0.791 | 0.499 |
 | Random Forest | **0.803** | **0.662** | 0.524 | 0.585 | **0.839** | **0.653** |
@@ -126,7 +126,7 @@ Rerun the second notebook before updating the numerical results, figures, discus
 
 The results show that no model is best for every objective:
 
-- **Naive Bayes + SMOTENC** achieved the highest F1-score.
+- **Random Forest + SMOTENC** achieved the highest F1-score.
 - **Naive Bayes without SMOTENC** achieved the highest recall and detected the largest proportion of churn customers.
 - **Random Forest without SMOTENC** achieved the highest accuracy, precision, ROC-AUC, and PR-AUC.
 
@@ -142,7 +142,7 @@ results/model_results.csv
 
 ## AI Tool Use
 
-ChatGPT and Claude were used for coding, debugging, and improving parts of the experimental pipeline. ChatGPT also assisted with report development, language revision, structure, and LaTeX formatting. The project workflow, outputs, tables, figures, citations, and final content were reviewed and verified by the student.
+ChatGPT and Claude were used for coding, debugging, and improving parts of the experimental pipeline. The student prepared the initial report outline, section structure, and content plan. ChatGPT assisted with developing parts of the report, language revision, structural refinement, and LaTeX formatting. The notebooks were executed, and the outputs, tables, figures, citations, and final content were reviewed and verified by the student.
 
 ## Author
 
